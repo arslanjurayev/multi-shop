@@ -346,3 +346,9 @@ body{
     transform: scale(1.25) rotate(5deg);
     transition: all 0.5s ease-out;
 }
+.logo-images{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    gap: 3.650rem;
+}
