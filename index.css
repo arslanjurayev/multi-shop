@@ -111,6 +111,7 @@ body{
     width: 20%;
     height: 100%;
     margin-left: 1rem;
+    gap: 1rem;
     background-color: #FFD333;
 }
 .home{
@@ -185,7 +186,27 @@ body{
     width: 6rem;
     height: 2rem;
 }
-
+.quality-product-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+}
+.quality-product-main div{
+    width: 17.625rem;
+    height: 6.25rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#343a40;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
 .categories{
     display: flex;
     flex-direction: column;
