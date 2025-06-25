@@ -366,7 +366,6 @@ body{
     margin-left: 1rem;
     margin-top: 4rem;
     width: 30%;
-    border: 2px solid red;
     color: #F5F5F5;
 }
 .footer-2{
@@ -375,7 +374,6 @@ body{
     margin-left: 1rem;
     margin-top: 4rem;
     width: 20%;
-    border: 2px solid red;
     color: #F5F5F5;
 }
 .footer-2 h5:hover{
@@ -388,7 +386,6 @@ body{
     margin-left: 1rem;
     margin-top: 4rem;
     width: 25%;
-    border: 2px solid red;
     color: #F5F5F5;
 }
 .footer-3 input{
