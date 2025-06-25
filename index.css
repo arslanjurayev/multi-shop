@@ -249,3 +249,59 @@ body{
 .category:hover .category-text{
     background-color: #FFD333;;
 }
+.featured-products-text{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.featured-products{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.featured-products img:hover{
+    transform: scale(1.20);
+    opacity: 0.4;
+    transition: 500ms;
+}
+.featured-products-images{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.featured-products-images-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    z-index: 1000;
+}
+.featured-products-images h4:hover{
+    color: #FFD333;
+}
+.featured-products-images p{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    z-index: 1000;
+}
+.featured-products-images span{
+    text-decoration: line-through;
+    color: #6C757D;
+    margin-left: 0.5rem;
+}
+.featured-products-images img{
+    display: flex;
+    align-self: center;
+    width: 17rem;
+}
