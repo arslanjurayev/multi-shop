@@ -305,3 +305,44 @@ body{
     align-self: center;
     width: 17rem;
 }
+.images2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    opacity: 90%;
+}
+.offer-1{
+    display: flex; 
+    margin-left: 1rem;
+    margin-top: 3rem;
+    width: 48%;
+    height: 20rem;
+    overflow: hidden;
+}
+.offer-1 img{
+    overflow: hidden;
+    z-index: 1000;
+    object-fit: fill;
+}
+.offer-1 img:hover{
+    transform: scale(1.25) rotate(5deg);
+    transition: all 0.5s ease-out;
+}
+.offer-2{
+    display: flex; 
+    margin-left: 1rem;
+    margin-top: 3rem;
+    width: 48%;
+    height: 20rem;
+    overflow: hidden;
+}
+.offer-2 img{
+    z-index: 1000;
+    object-fit: fill;
+    overflow: hidden;
+}
+.offer-2 img:hover{
+    transform: scale(1.25) rotate(5deg);
+    transition: all 0.5s ease-out;
+}
